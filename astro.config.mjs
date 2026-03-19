@@ -32,7 +32,7 @@ import { remarkFixGithubAdmonitions } from "./src/plugins/remark-fix-github-admo
 // https://astro.build/config
 export default defineConfig({
 	site: siteConfig.siteURL,
-	base: "/",
+	base: "/liu-blog",
 	trailingSlash: "always",
 
 	output: "static",
